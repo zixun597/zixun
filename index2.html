@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛泽东的家庭</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  </style>
+  <body>
+<p>
+      <a  href="index.html">  <img class="arrowClass" src="image\backArrow.png" alt=""></a>
+    </p>
+<br><br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>毛泽东家族树</title>
+   <style>
+      body {
+          font-family: Arial, sans-serif;
+         margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('image/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+      }
+      .container {
+          width: 100%;
+          overflow-x: scroll;
+          display: flex;
+          justify-content: center;
+      }
+      .tree {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: auto;
+          background-color: #d7c5ab;
+          padding: 20px;
+          border-radius: 10px;
+          position: relative;
+      }
+      .tree .node {
+          background-color: #ed1c24;
+          padding: 10px;
+          border-radius: 10px;
+          text-align: center;
+          margin: 10px;
+          position: relative;
+          width: 180px;
+      }
+      .tree .node img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          margin-bottom: 5px;
+      }
+      .tree .node .name {
+          font-weight: bold;
+      }
+      .tree .node .dates {
+          font-size: 12px;
+      }
+      .tree .connector {
+          position: absolute;
+          background-color: white;
+          z-index: -1;
+      }
+      .tree .connector.vertical {
+          width: 2px;
+      }
+      .tree .connector.horizontal {
+          height: 2px;
+      }
+      .parents {
+          display: flex;
+          justify-content: center;
+      }
+      .children {
+          display: flex;
+          justify-content: center;
+          position: relative;
+          margin-top: 20px;
+      }
+      .children .node {
+          margin: 0 40px;
+      }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; color: yellow;">毛泽东家族树</h1>
+  <div class="container">
+      <div class="tree">
+          <!-- 父母 -->
+          <div class="parents">
+              <div class="node">
+                  <img src="image/mao1.jpg" alt="毛贻昌">
+                  <div class="name">毛贻昌</div>
+                  <div class="dates">（父亲）</div>
+              </div>
+              <div class="node">
+                  <img src="image/mao2.jpg" alt="文七妹">
+                  <div class="name">文七妹</div>
+                  <div class="dates">（母亲）</div>
+              </div>
+          </div>
+          <!-- 毛泽东 -->
+          <div class="connector vertical" style="height: 50px; left: 50%;"></div>
+          <div class="node">
+              <img src="image/mao3.jpg" alt="毛泽东">
+              <div class="name">毛泽东</div>
+              <div class="dates">1893-1976</div>
+          </div>
+
+          <!-- 配偶 -->
+          <div class="connector vertical" style="height: 50px; left: 50%;"></div>
+          <div class="children">
+              <div class="node">
+                  <img src="image/mao4.jpg" alt="罗一秀">
+                  <div class="name">罗一秀</div>
+                  <div class="dates">（第一任妻子）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao5.jpg" alt="杨开慧">
+                  <div class="name">杨开慧</div>
+                  <div class="dates">（第二任妻子）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao6.jpg" alt="贺子珍">
+                  <div class="name">贺子珍</div>
+                  <div class="dates">（第三任妻子）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao7.jpg" alt="江青">
+                  <div class="name">江青</div>
+                  <div class="dates">（第四任妻子）</div>
+              </div>
+          </div>
+
+          <!-- 与杨开慧所生的孩子 -->
+          <div class="connector vertical" style="height: 50px; left: 50%;"></div>
+          <div class="children">
+              <div class="node">
+                  <img src="image/mao8.jpg" alt="毛岸英">
+                  <div class="name">毛岸英</div>
+                  <div class="dates">1922-1950</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao9.jpg" alt="毛岸青">
+                  <div class="name">毛岸青</div>
+                  <div class="dates">1923-2007</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao10.jpg" alt="毛岸龙">
+                  <div class="name">毛岸龙</div>
+                  <div class="dates">1927-1931</div>
+              </div>
+          </div>
+
+          <!-- 与贺子珍所生的孩子 -->
+          <div class="connector vertical" style="height: 50px; left: 50%;"></div>
+          <div class="children">
+              <div class="node">
+
+                  <div class="name">毛安红</div>
+                  <div class="dates">（女儿）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao11.jpg" alt="李敏">
+                  <div class="name">李敏</div>
+                  <div class="dates">（女儿）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <div class="name">毛岸立</div>
+                  <div class="dates">（儿子）</div>
+              </div>
+              <div class="connector horizontal" style="width: 80px; top: 50%;"></div>
+              <div class="node">
+                  <img src="image/mao12.jpg" alt="毛岸平">
+                  <div class="name">毛岸平</div>
+                  <div class="dates">（儿子）</div>
+              </div>
+          </div>
+
+          <!-- 与江青所生的孩子 -->
+          <div class="connector vertical" style="height: 50px; left: 50%;"></div>
+          <div class="children">
+              <div class="node">
+                  <img src="image/mao13.jpg" alt="李讷">
+                  <div class="name">李讷</div>
+                  <div class="dates">（女儿）</div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</body>
+</html>

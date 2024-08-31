@@ -1,0 +1,166 @@
+
+.star {
+  width:50px;
+  height: 50px;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container2 {
+    position: relative;
+    width: 80vw;
+    height: 50vh;
+}
+
+
+.container2 h1{
+  position: absolute;
+  top: 5vh;
+  left: 40vw;
+}
+
+.arrowClass{
+  width:110px;
+  height: 120px;
+position:fixed;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+}
+
+
+.star1, .word1 {
+  position: absolute;
+  top: 7vh;
+  left: 19vw;
+  transform: rotate(15deg);
+
+}
+
+
+.star2, .word2 {
+  position: absolute;
+  top: 15vh;
+  left: 23vw;
+  transform: rotate(50deg)
+}
+
+
+.star3, .word3 {
+  position: absolute;
+  top: 27vh;
+  left: 23vw;
+  transform: rotate(-1deg)
+}
+
+
+.star4, .word4 {
+  position: absolute;
+  top: 35vh;
+  left: 19vw;
+  transform: rotate(15deg)
+}
+.star:hover{
+  width:60px;
+  height: 60px;
+}
+
+
+.star5, .word5 {
+  position: absolute;
+  top: 10vh;
+  left: 3vw;
+  width: 170px;
+  height: 170px;
+}
+
+
+.star5:hover{
+  width:220px;
+  height: 220px;
+  left: 1vw;
+  top: 8vh;
+}
+
+
+.maoVideo{
+  position: absolute;
+  width:220px;
+  height: 180px;
+  top: 5vh;
+  left: 50vw;
+}
+
+.maoVideo2{
+  position: absolute;
+  width:220px;
+  height: 180px;
+  top: 5vh;
+  left: 68vw;
+}
+
+.maoVideo3{
+  position: absolute;
+  width:220px;
+  height: 180px;
+  top: 37.5vh;
+  left: 55vw;
+}
+
+.maoVideo4{
+  position: absolute;
+  width:210px;
+  height: 180px;
+  top: 37.5vh;
+  left: 73vw;
+}
+
+.maoVideo5{
+  position: absolute;
+  width:220px;
+  height: 180px;
+  top: 70vh;
+  left: 50vw;
+}
+
+
+.maoVideo6{
+  position: absolute;
+  width:220px;
+  height: 180px;
+  top: 70vh;
+  left: 68vw;
+}
+
+
+//--------------------------------------------------------------------------------------
+.index2img{
+  position: absolute;
+  width:180px;
+  height: 190px;
+  top: 15vh;
+  left: 10vw;
+}
+
+.index6img{
+  position: absolute;
+  width:180px;
+  top: 15vh;
+}
